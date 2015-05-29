@@ -1,0 +1,1 @@
+<ad xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://standards.smaato.com/ad/smaato_ad_v0.9.xsd\" modelVersion=\"0.9\"><richmediaAd><content><![CDATA[ <script>Richmedia Example</script> ]]></content><width>728</width><height>90</height></richmediaAd></ad>

@@ -1,0 +1,15 @@
+Ad Setting Schema :
+ad_id => CPA|CPC|counter|ttl
+ad_id => today_budget_left 
+device_id+ad_id => impression counter 
+
+Targeting Schema :
+country=>set(ad_id)
+category=>set(ad_id)
+budget=>set(ad_id)
+
+Performance Schema :
+size+os =>cpm
+app_id+size+os =>cpm
+ad_id+app_id+size+os =>cpm
+

@@ -1,0 +1,37 @@
+{
+  "name": "yeahrtb",
+  "description": "the demo for rtb",
+  "version": "0.0.2",
+  "author": "morningzhang@yeahmobi.com",
+  "contributors": [],
+  "keywords": [
+    "rtb",
+    "framework",
+    "json",
+    "app",
+    "api"
+  ],
+  "repository": "morningzhang/yeahrtb",
+  "dependencies": {
+    "winston": "",
+    "redis": "0.11.0",
+    "async": "0.9.0",
+    "lockfile": "0.4.2",
+    "redis-client-ch": "0.1.1",
+    "underscore": "1.7.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "~0.1.1"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/"
+  }
+}

@@ -1,0 +1,203 @@
+{
+    "app": {
+        //onlythisorsitewillbepassed
+        "bundle": "531323947",
+        "cat": [
+            "IAB1",
+            "IAB9",
+            "IAB9-30",
+            "entertainment",
+            "games"
+        ],
+        "id": "agltb3B1Yi1pbmNyDAsSA0FwcBitsL4UDA",
+        "name": "Talking Ginger - iPhone",
+        "publisher": {
+            "id": "agltb3B1Yi1pbmNyEAsSB0FjY291bnQYvvjTEgw",
+            "name": "Outfit7"
+        },
+        "storeurl": "
+        http://itunes.apple.com/us/app/talking-ginger/id531323947?mt=8
+        ",
+        "ver": "1.4"//notalwayspassed
+    },
+    "site": {
+        //onlythisorappwillbepassed
+        "cat": [
+            "IAB1",
+            "IAB9",
+            "IAB9-30",
+            "entertainment",
+            "games"
+        ],
+        "id": "37463760876",
+        "name": "Yahoo Weather",
+        "domain": "
+        www.yahoo.com
+        ",
+        "publisher": {
+            "id": "876487564786",
+            "name": "Yahoo"
+        }
+    },
+    "at": 2,
+    "badv": [
+        //notalwayspassed
+        "porn.com",
+        "badcontent2.net",
+        "competitivegame.com"
+    ],
+    "bcat": [
+        //notalwayspassed
+        "IAB6-7",
+        "IAB7-3",
+        "IAB7-28"
+    ],
+    "device": {
+        "carrier": "310-410",
+        //notalwayspassed
+        "connectiontype": 3,
+        "devicetype": 1,
+        "dnt": 0,
+        //notalwayspassed
+        "dpidmd5": "268d403db34e32c45869bb1401247af9",
+        //notalwayspassed
+        "dpidsha1": "dd5e1b336e19ff975c271bb4d79b26087a446904",
+        //notalwayspassed
+        "geo": {
+            //notalwayspassed
+            "lat": 34.052695,
+            //notalwayspassed
+            "lon": -118.46607,
+            //notalwayspassed
+            "city": "Los Angeles",
+            //notalwayspassed
+            "country": "US",
+            //notalwayspassed
+            "metro": "803",
+            //notalwayspassed
+            "region": "CA",
+            //notalwayspassed
+            "zip": "90049"
+            //notalwayspassed
+        },
+        "ip": "108.176.57.230",
+        "js": 1,
+        "language": "en",
+        "make": "Apple",
+        //notalwayspassed
+        "model": "iPhone",
+        //notalwayspassed
+        "os": "iOS",
+        "osv": "6.1.3",
+        "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26
+            (KHTML, like Gecko) Mobile/10B329",
+        "ext": {
+            //notalwayspassed
+            "uidh": "7846278657846075",
+            "idfa": "BDAEEAEF-D5E2-473C-B287-053D31449A89"
+        }
+    },
+    "id": "39f95888-0450-4afc-9b8b-eabd81a69ddc",
+    "imp": [
+        {
+            "banner": {
+                "api": [
+                    //notalwayspassed
+                    3
+                ],
+                "battr": [
+                    //notalwayspassed
+                    7,
+                    9,
+                    10,
+                    14
+                ],
+                "btype": [
+                    4
+                ],
+                "h": 480,
+                "pos": 1,
+                "w": 320,
+                "ext": {
+                    //notalwayspassed
+                    "video": {
+                        "minduration": 15,
+                        "maxduration": 30,
+                        "linearity": 1,
+                        "type": [
+                            "VAST 2.0",
+                            "HTML5"
+                        ]
+                    },
+                    "mraid": [
+                        {
+                            "version": "2.0",
+                            "functions": [
+                                "storePicture",
+                                "createCalendarEvent",
+                                "supports",
+                                "playVideo"
+                            ]
+                        }
+                    ],
+                    "nativebrowserclick": 1
+                }
+            },
+            "bidfloor": 1.75,
+            "displaymanager": "mopub",
+            "displaymanagerver": "1.11.3.2",
+            //notalwayspassed"id": "1",
+            "instl": 1,
+            "tagid": "agltb3B1Yi1pbmNyDQsSBFNpdGUYhoTFFAw"
+        }
+    ],
+    "user": {
+        "keywords": "key1:val1,key2:val2",
+        //notalwayspassed
+        "yob": "1985",
+        //notalwayspassed
+        "gender": "f",
+        //notalwayspassed
+        "data": [
+            //notalwayspassed
+            {
+                "id": "987",
+                "name": "data_provider_name",
+                "segment": [
+                    {
+                        "id": "CategoryId",
+                        "value": "876876"
+                    }
+                ]
+            },
+            {
+                "id": "12345",
+                "name": "bluekai",
+                "segment": [
+                    {
+                        "id": "17"//bluekaiwillonlyhaveanid
+                    },
+                    {
+                        "id": "456"
+                    },
+                    {
+                        "id": "97823"
+                    }
+                ]
+            }
+        ],
+        
+    },
+    "ext": {
+        //notalwayspassed"pmp": {
+            "private": 1,
+            "deals": [
+                {
+                    "id": "DX-1985-010A",
+                    "bidfloor": 2.50,
+                    "at": 2
+                }
+            ]
+        }
+    }
+}

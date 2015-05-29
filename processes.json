@@ -1,0 +1,14 @@
+{
+  "apps" : [{
+    "name"       : "bidder",
+    "script"     : "./src/app.js",
+    "instances"  : "max",
+    "exec_mode"  : "cluster_mode",
+    "port"       : 8000,
+    "watch"      : ["src"],
+    "max_restarts":15,
+    "env": {
+        "NODE_ENV": "production"
+    }
+  }]
+}
